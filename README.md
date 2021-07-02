@@ -21,6 +21,9 @@ The Tokenization processing includes standarizing the setences, spilting the sam
 python3 vocab2.py
 ```
 The result should be 6 numpy files (.npy files) 2 are for the training set, 2 are for the testing set, 1 is the training set labels, and 1 is the testing set labels. These numpy files will be loaded later on to be used for the model next.
+
+The image below is  visual of how the tokenization of the sample sentences take place using the vocabulary set created from truncator.py
+
 ## Model
 
 ## Results
