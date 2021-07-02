@@ -173,18 +173,6 @@ with open("vocabulary_dict_ranges.json", "w") as f:
         json.dump(vocabulary_dict_ranges, f)
 
 
-"""
-# save just a list of the words in the vocabulary alone
-vocabulary_list = []
-for key, val in vocabulary_dict_ranges.items():
-    for i in range(len(vocabulary_dict_ranges[key])):
-        for sub_key, sub_val in vocabulary_dict_ranges[key][i].items():
-            vocabulary_list.append(sub_key)
-#print(len(vocabulary_list))
-with open("vocabulary_list.json", "w") as f:
-        json.dump(vocabulary_list, f)
-"""
-
 # save just a list of the words in the vocabulary alone
 vocabulary_dict = {}
 for key, val in vocabulary_dict_ranges.items():
