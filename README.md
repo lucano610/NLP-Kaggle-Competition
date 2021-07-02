@@ -10,7 +10,7 @@ python3 vocab2.py
 ```
 The result should be 6 numpy files (.npy files) 2 are for the training set, 2 are for the testing set, 1 is the training set labels, and 1 is the testing set labels. These numpy files will be loaded later on to be used for the model next.
 
-### Sanitization/Tokenization
+### Tokenization
 The Tokenization processing includes standarizing the setences, spilting the samples of setences into a sublevel (a word in this project) which will be the tokens, vectorizing the samples based on the vobaulary created (as described above), and formating all saamples to be the same length in the number of tokens. To implement the tokeninzation the following steps must be followed.
 
 The image below is  visual of how the tokenization of the sample sentences take place using the vocabulary set created from truncator.py
