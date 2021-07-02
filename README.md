@@ -24,6 +24,7 @@ The result should be 6 numpy files (.npy files) 2 are for the training set, 2 ar
 
 The image below is  visual of how the tokenization of the sample sentences take place using the vocabulary set created from truncator.py
 
+[!alt text](https://github.com/huda-irs/cs542_NLP_Project/blob/main/images/tokenization.PNG)
 ## Model
 
 ## Results
