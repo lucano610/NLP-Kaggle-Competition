@@ -97,10 +97,11 @@ Dictionary_rep = [val for sublist in new_words_total for val in sublist]
 from collections import Counter
 c = Counter(Dictionary_rep)
 
-# grab most common words to be part of our vocabulary of the machine
-#working_vocab = set(w for w,_ in c.most_common()[:])
+with open("counter.json", "w") as f:
+        json.dump(c, f)
+
 #takes the output dictionary of truncater 
-with open('./trunc/vocabulary_dic.json') as json_file1:
+with open('./vocabulary_dic.json') as json_file1:
     vocab_truncated = json.load(json_file1)
 
 working_vocab = set(vocab_truncated)
