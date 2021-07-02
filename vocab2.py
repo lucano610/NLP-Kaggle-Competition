@@ -10,6 +10,7 @@ import os
 import json
 import csv
 import numpy as np
+import truncater
 
 ############# Define Paths #############
 ordered_vocab_path = os.path.abspath('.')
@@ -100,6 +101,7 @@ c = Counter(Dictionary_rep)
 with open("counter.json", "w") as f:
         json.dump(c, f)
 
+tuncater        
 #takes the output dictionary of truncater 
 with open('./vocabulary_dic.json') as json_file1:
     vocab_truncated = json.load(json_file1)
