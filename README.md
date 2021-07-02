@@ -2,9 +2,9 @@
 
 ## Preprocessing
   #### Running code 
-  * download the training, test, and sample csv files from the kaggle compeition [here](https://www.kaggle.com/c/contradictory-my-dear-watson/data)
-  * have the json file and the csv files are in the same directory as vocab2.py
-  * run the vocab2.py script
+  * Download the training, test, and sample csv files from the kaggle compeition [here](https://www.kaggle.com/c/contradictory-my-dear-watson/data)
+  * Ensure that csv files are in the same directory as vocab2.py
+  * Run the vocab2.py script
 ```
 python3 vocab2.py
 ```
