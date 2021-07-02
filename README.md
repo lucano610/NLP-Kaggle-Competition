@@ -13,8 +13,8 @@ To create the vocabulary, the you need to create a way to tell which words hold 
 The vocabulary **"/trunc/vocabulary_dic.json"** should already be included in the folder, as long as the training data hasn't changed. If not, **"/trunc/truncater.py"** must be run first.
 
 ### Tokenization
-The Tokenization processing includes standarizing the sentences, spilting the samples of sentences into a sublevel (a word in this project) which will be the tokens, vectorizing the samples based on the vobaulary created (as described above), and formating all saamples to be the same length in the number of tokens. To implement the tokeninzation the following steps must be followed.
-* download the traing, test, and sample csv files from the kaggle compeition [here](https://www.kaggle.com/c/contradictory-my-dear-watson/data)
+The Tokenization processing includes standarizing the setences, spilting the samples of setences into a sublevel (a word in this project) which will be the tokens, vectorizing the samples based on the vobaulary created (as described above), and formating all saamples to be the same length in the number of tokens. To implement the tokeninzation the following steps must be followed.
+* download the training, test, and sample csv files from the kaggle compeition [here](https://www.kaggle.com/c/contradictory-my-dear-watson/data)
 * have the json file and the csv files are in the same directory as vocab2.py
 * run the vocab2.py script
 ```
